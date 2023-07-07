@@ -1,2 +1,26 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+
+<div class="encabezado-contacto">
+    <h1><%= "CONTACTO" %></h1>
+</div>
+
+<div class="datos">
+    <h1><%= "ABRAHAM PIZARRO CACERES" %></h1>
+</div>
+<div class="enlaces">
+    <div class="row">
+        <div class="col">
+            <%= link_to image_tag("logoface.png", alt: "Logo de Twitter", size: "70x70"), "https://twitter.com/FOLLOWDEPELAO?=kFgAuMji3d-EYkiNqVx8-g&s=08", target: "_blank" %>
+        </div>
+        <div class="col">
+            <%= link_to image_tag("insta.jpg", alt: "Logo de Twitter", size: "70x70"), "https://twitter.com/FOLLOWDEPELAO?=kFgAuMji3d-EYkiNqVx8-g&s=08", target: "_blank" %>
+        </div>
+        <div class="col">
+            <%= link_to image_tag("logotwitter.jpg", alt: "Logo de Twitter", size: "50x50"), "https://twitter.com/FOLLOWDEPELAO?=kFgAuMji3d-EYkiNqVx8-g&s=08", target: "_blank" %>
+        </div>
+    </div>
+</div>
+
+<div class="email">
+    <h3><%= mail_to "abrahampizarroc@gmail.com", image_tag("logoemail.png", alt: "Enviar correo", size: "80x80") %></h3>
+
+</div>

@@ -1,9 +1,68 @@
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+}
+
+.container-fluid {
+    background-color: rgb(228, 45, 45);
+    margin-bottom: 50px;
+    float: right !important;
+}
+
+.navbar-nav{
+    margin-left: 550px;
+    font-family: 'Lobster', cursive;
+}
+
+
 .nombre{
     
-    margin-left: 450px;
+    margin-left: 350px;
     
 }
 
 .card {
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-top: 200px;
+    
 }
+
+.container.tarjet {
+    margin-top: 50px;
+}
+
+
+.encabezado{
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.comuna{
+    margin-left: 110px;
+}
+
+.imagen{
+    margin-left: 380px;
+}
+
+.encabezado-contacto{
+    margin-left: 400px;
+}
+
+.datos h1{
+    margin-left: 250px;
+}
+
+.col{
+    margin-left: 80px;
+    
+}
+
+.enlaces{
+    margin-top: 80px;
+}
+
+.email{
+    margin-left: 450px;
+    margin-top: 80px;
+}
+
